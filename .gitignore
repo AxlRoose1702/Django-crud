@@ -59,6 +59,7 @@ cover/
 *.log
 local_settings.py
 db.sqlite3
+django-crud.sqlite3
 db.sqlite3-journal
 
 # Flask stuff:
@@ -127,6 +128,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+migrations
+Django-env
 
 # Spyder project settings
 .spyderproject
