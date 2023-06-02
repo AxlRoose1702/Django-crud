@@ -39,7 +39,7 @@ def inicioSesion(request):
         user = authenticate(request,username=request.POST['username'],password=request.POST['password'])
         if user is None:
             return render(request, 'inicioSesion.html', {
-                    'form': AuthenticationForm  
+                    'form': AuthenticationForm  ,
                     'error': 'usuario o contraseña incorrectos' 
             })
 
