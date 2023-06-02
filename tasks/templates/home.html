@@ -1,12 +1,7 @@
-<h1>Esta es la pagina de inicio</h1>
-<ul class="nav justify-content-center">
-    <li class="nav-item">
-        <a class="nav-link active" href="{% url 'registrar' %}">Inicio de sesion</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled link</a>
-    </li>
-</ul>
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class="container">
+    <h1>Esta es la pagina de inicio</h1>
+  </div>
+{% endblock  %}

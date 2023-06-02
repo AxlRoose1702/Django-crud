@@ -1,8 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block body %}
 <h1>Bienvenido a la perra pagina de inicio</h1>
 
-<form action="/signup/" method="POST">
+<form method="POST">
     {% csrf_token %}
     {{form.as_p}}
 
     <button>Signup</button>
 </form>
+{% endblock body %}
